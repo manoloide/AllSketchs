@@ -1,0 +1,57 @@
+ArrayList<HotPoint> puntos;
+
+void setup() {
+  size(800, 600);
+  smooth(8);
+  puntos = new ArrayList<HotPoint>();
+  puntos.add(new HotPoint(width/3, height/3));
+  puntos.add(new HotPoint(width/3*2, height/3));
+  puntos.add(new HotPoint(width/3, height/3*2));
+  puntos.add(new HotPoint(width/3*2, height/3*2));
+  for (int i = 0; i < puntos.size(); i++) {
+    HotPoint aux = puntos.get(i);
+    aux.setDist(dist(width/3, height/3, width/2, height/2));
+  }
+  background(255);
+}
+
+void draw() {
+}
+
+void keyPressed() {
+  thread("generar");
+}
+
+void generar() {
+  //stroke(0, 80);
+  noStroke();
+  fill(0);
+
+  for (int y = 0; y < height; y += 3) {
+    for (int x = 0; x < width; x += 3) {
+      float xx = x; 
+      float yy = y;
+      float tam = 4;
+      for (int i = 0; i < puntos.size(); i++) {
+        HotPoint aux = puntos.get(i);
+        float dist = aux.dis-dist(aux.x, aux.y, x, y);
+        if (dist > 0) {
+          tam -= dist*0.1;
+        }
+      }
+      ellipse(xx, yy, tam, tam);
+    }
+  }
+}
+
+class HotPoint {
+  boolean eliminar; 
+  float x, y, dis; 
+  HotPoint(float x, float y) {
+    this.x = x;
+    this.y = y;
+  }
+  void setDist(float dis) {
+    this.dis = dis;
+  }
+}

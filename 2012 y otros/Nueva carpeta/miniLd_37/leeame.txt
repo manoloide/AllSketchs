@@ -1,0 +1,7 @@
+Realizado por manoloide para el concurso Mini Ludum Dare 37 (http://www.ludumdare.com/compo/).
+Realizado con:
+-processing 
+-paint.net
+
+http://manoloide.com.ar
+manoloide@gmail.com

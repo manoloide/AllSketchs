@@ -1,0 +1,40 @@
+byn7.png true
+byn2.png false
+byn3.png false
+byn4.png false
+pai3.png false
+byn5.png false
+byn6.png false
+byn1.png false
+pai1.png false
+pai2.png true
+pai16.png true
+pai17.png pai17_2.png pai17_3.png pai17_4.png true
+pir1.png pir1_2.png pir1_3.png pir1_4.png false
+pir2.png true
+pir13.png false
+pir14.png false
+pir15.png false
+pir16.png true
+pir3.png false
+pir4.png true
+pir5.png true
+pir6.png false
+pai4.png false
+pai5.png true
+pai6.png true
+pai7.png true
+pai8.png true
+pai9.png false
+pai10.png pai10_2.png pai10_3.png pai10_4.png pai10_5.png true
+pai11.png true
+pai12.png true
+pai13.png true
+pai14.png false
+pai15.png true
+pir7.png false
+pir8.png true
+pir9.png false
+pir10.png false
+pir11.png false
+pir12.png false

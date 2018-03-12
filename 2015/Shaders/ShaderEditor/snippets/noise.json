@@ -1,0 +1,9 @@
+{
+	"name": "Noise",
+	"description": "noise",
+	"author": "manoloide",
+	"version": "0.1",
+
+	"declaration": "",
+	"code": "col = vec4(cos(time), sin(time), cos(time*time), 1);"
+}

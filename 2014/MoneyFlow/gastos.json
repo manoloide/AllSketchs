@@ -1,0 +1,92 @@
+[
+  {
+    "dia": {
+      "month": 10,
+      "year": 2014,
+      "day": 2
+    },
+    "detalle": "compra 0",
+    "gasto": -104.77657318115234
+  },
+  {
+    "dia": {
+      "month": 10,
+      "year": 2014,
+      "day": 2
+    },
+    "detalle": "compra 1",
+    "gasto": 44.9298095703125
+  },
+  {
+    "dia": {
+      "month": 10,
+      "year": 2014,
+      "day": 2
+    },
+    "detalle": "compra 2",
+    "gasto": 140.18417358398438
+  },
+  {
+    "dia": {
+      "month": 10,
+      "year": 2014,
+      "day": 2
+    },
+    "detalle": "compra 3",
+    "gasto": 173.82501220703125
+  },
+  {
+    "dia": {
+      "month": 10,
+      "year": 2014,
+      "day": 2
+    },
+    "detalle": "compra 4",
+    "gasto": 97.25894165039062
+  },
+  {
+    "dia": {
+      "month": 10,
+      "year": 2014,
+      "day": 2
+    },
+    "detalle": "compra 5",
+    "gasto": -127.689453125
+  },
+  {
+    "dia": {
+      "month": 10,
+      "year": 2014,
+      "day": 2
+    },
+    "detalle": "compra 6",
+    "gasto": -149.60145568847656
+  },
+  {
+    "dia": {
+      "month": 10,
+      "year": 2014,
+      "day": 2
+    },
+    "detalle": "compra 7",
+    "gasto": 113.56201171875
+  },
+  {
+    "dia": {
+      "month": 10,
+      "year": 2014,
+      "day": 2
+    },
+    "detalle": "compra 8",
+    "gasto": -94.11461639404297
+  },
+  {
+    "dia": {
+      "month": 10,
+      "year": 2014,
+      "day": 2
+    },
+    "detalle": "compra 9",
+    "gasto": 30.075958251953125
+  }
+]

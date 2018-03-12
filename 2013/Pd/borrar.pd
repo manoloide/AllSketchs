@@ -1,0 +1,9 @@
+#N canvas 54 264 450 300 10;
+#X obj 233 -4 sendOSC;
+#X msg 250 -71 connect localhost 12001;
+#X obj 59 -105 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X msg 52 -55 send /1 \$1;
+#X connect 1 0 0 0;
+#X connect 2 0 3 0;
+#X connect 3 0 0 0;

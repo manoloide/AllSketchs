@@ -1,0 +1,9 @@
+{
+	"name": "Displacement",
+	"description": "displacement",
+	"author": "manoloide",
+	"version": "0.1",
+
+	"declaration": "",
+	"code": "float r = texture2D(texture, uv+vec2(0.024*cos(time*5+3), 0.09*cos(time*8.3+4))).r;float g = texture2D(texture, uv+vec2(0.01*cos(time*5+4), 0.07*cos(time*2.3))).g;float b = texture2D(texture, uv+vec2(0.1*cos(time*5+2), 0.02*cos(time*4.3+6))).b;col = vec4(r, g, b, 1.0);"
+}

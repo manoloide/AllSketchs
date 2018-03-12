@@ -1,0 +1,84 @@
+{"values": [
+  {
+    "keys": [{
+      "time": 0,
+      "value": true
+    }],
+    "name": "view",
+    "type": "boolean"
+  },
+  {
+    "keys": [
+      {
+        "time": 0,
+        "value": 640
+      },
+      {
+        "time": 40,
+        "value": 1495
+      },
+      {
+        "time": 123,
+        "value": 1157
+      }
+    ],
+    "name": "x",
+    "type": "float"
+  },
+  {
+    "keys": [
+      {
+        "time": 0,
+        "value": 360
+      },
+      {
+        "time": 57,
+        "value": -45
+      },
+      {
+        "time": 123,
+        "value": 95
+      }
+    ],
+    "name": "y",
+    "type": "float"
+  },
+  {
+    "keys": [
+      {
+        "time": 0,
+        "value": 20
+      },
+      {
+        "time": 23,
+        "value": 926
+      },
+      {
+        "time": 74,
+        "value": 1581
+      },
+      {
+        "time": 123,
+        "value": 352
+      }
+    ],
+    "name": "dim",
+    "type": "float"
+  },
+  {
+    "keys": [{
+      "time": 0,
+      "value": 0
+    }],
+    "name": "ang",
+    "type": "float"
+  },
+  {
+    "keys": [{
+      "time": 0,
+      "value": 3
+    }],
+    "name": "amount",
+    "type": "integer"
+  }
+]}

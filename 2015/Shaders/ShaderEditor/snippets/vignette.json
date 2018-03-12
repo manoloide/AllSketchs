@@ -1,0 +1,9 @@
+{
+	"name": "Vignette",
+	"description": "vignette",
+	"author": "manoloide",
+	"version": "0.1",
+
+	"declaration": "",
+	"code": "col = mix(col, vec4(0.0), pow(distance(uv, vec2(0.5, 0.5)), 1.2));",
+}

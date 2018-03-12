@@ -1,0 +1,14 @@
+#N canvas 894 540 450 296 10;
+#X obj 223 -14 sendOSC;
+#X msg 240 -81 connect localhost 12001;
+#X msg 42 -65 send /1 \$1;
+#X msg 136 -64 send /2 \$1;
+#X floatatom 45 -137 5 0 0 0 - - -;
+#X floatatom 96 -136 5 0 0 0 - - -;
+#X obj 43 -187 notein;
+#X connect 1 0 0 0;
+#X connect 2 0 0 0;
+#X connect 3 0 0 0;
+#X connect 5 0 2 0;
+#X connect 6 0 4 0;
+#X connect 6 1 5 0;
