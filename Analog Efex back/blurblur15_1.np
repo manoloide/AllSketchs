@@ -1,0 +1,51 @@
+<AnalogEfexPro2_preset>
+	<filter name="TauronGlobalAdjustments">
+		<parameter name="strengthFactor" value="20" valueType="float"/>
+		<parameter name="brightness" value="-5" valueType="float"/>
+		<parameter name="contrast" value="0" valueType="float"/>
+		<parameter name="saturation" value="16" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="DoubleExposure">
+		<parameter name="TextureFileName" value="" valueType="utf8string"/>
+		<parameter name="TextureType" value="1" valueType="int"/>
+		<parameter name="TextureConvertToWorkingColorSpace" value="1" valueType="int"/>
+		<parameter name="TextureUseThumbnail" value="0" valueType="float"/>
+		<parameter name="centerX" value="0.500165" valueType="float"/>
+		<parameter name="centerY" value="0.501815" valueType="float"/>
+		<parameter name="protectCenter" value="0" valueType="float"/>
+		<parameter name="zoomStrength" value="45" valueType="float"/>
+		<parameter name="rotateStrength" value="0" valueType="float"/>
+		<parameter name="scaleFactor" value="1" valueType="float"/>
+		<parameter name="angle" value="0" valueType="float"/>
+		<parameter name="posX" value="0.5" valueType="float"/>
+		<parameter name="posY" value="0.5" valueType="float"/>
+		<parameter name="exposure" value="134" valueType="float"/>
+		<parameter name="exposure_balance" value="0" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="TauronLensVignette">
+		<parameter name="vignetteCenterX" value="0.5" valueType="float"/>
+		<parameter name="vignetteCenterY" value="0.5" valueType="float"/>
+		<parameter name="vigStrength" value="-19" valueType="float"/>
+		<parameter name="vigSize" value="100" valueType="float"/>
+		<parameter name="vigShape" value="4.5" valueType="float"/>
+		<parameter name="DisableFilter" value="1" valueType="float"/>
+	</filter>
+	<filter name="NewFilmType">
+		<parameter name="filmTypePresets" value="17" valueType="int"/>
+		<parameter name="strength" value="98" valueType="float"/>
+		<parameter name="fade" value="-72" valueType="float"/>
+		<parameter name="grainSliderStrength" value="490" valueType="float"/>
+		<parameter name="grainSliderSoftness" value="100" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<group name="general">
+		<key name="name" type="string" value="blurblur15_1"/>
+		<key name="uid" type="string" value="2019-10-07T21:37:20765968552"/>
+		<key name="tags" type="string_array">
+			<string value="Custom"/>
+		</key>
+	</group>
+</AnalogEfexPro2_preset>
+

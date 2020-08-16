@@ -1,0 +1,106 @@
+<AnalogEfexPro2_preset>
+	<filter name="TauronGlobalAdjustments">
+		<parameter name="strengthFactor" value="28" valueType="float"/>
+		<parameter name="brightness" value="6" valueType="float"/>
+		<parameter name="contrast" value="3" valueType="float"/>
+		<parameter name="saturation" value="44" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="TauronTextureDirt">
+		<parameter name="TextureType" value="3" valueType="int"/>
+		<parameter name="TextureConvertToWorkingColorSpace" value="1" valueType="int"/>
+		<parameter name="TextureUseThumbnail" value="0" valueType="float"/>
+		<parameter name="strengthScratch" value="-8" valueType="float"/>
+		<parameter name="posXScratch" value="0.5" valueType="float"/>
+		<parameter name="posYScratch" value="0.5" valueType="float"/>
+		<parameter name="ScratchCombo" value="4" valueType="int"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="TauronLensVignette">
+		<parameter name="vignetteCenterX" value="0.5" valueType="float"/>
+		<parameter name="vignetteCenterY" value="0.5" valueType="float"/>
+		<parameter name="vigStrength" value="-2" valueType="float"/>
+		<parameter name="vigSize" value="71" valueType="float"/>
+		<parameter name="vigShape" value="4.5" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="NewFilmType">
+		<parameter name="filmTypePresets" value="4" valueType="int"/>
+		<parameter name="strength" value="94" valueType="float"/>
+		<parameter name="fade" value="-50" valueType="float"/>
+		<parameter name="grainSliderStrength" value="440" valueType="float"/>
+		<parameter name="grainSliderSoftness" value="0" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="LevelsAndCurvesFilter">
+		<parameter name="lacdataRGB" value='&lt;Lac_serialization&gt;
+	&lt;key name="lowNodeX" value="0"/&gt;
+	&lt;key name="lowNodeY" value="0"/&gt;
+	&lt;key name="highNodeX" value="1"/&gt;
+	&lt;key name="highNodeY" value="1"/&gt;
+	&lt;key name="gamma" value="0"/&gt;
+	&lt;key name="intNodeCount" value="2"/&gt;
+	&lt;key name="intNodeX0" value="0.683333"/&gt;
+	&lt;key name="intNodeY0" value="0.688889"/&gt;
+	&lt;key name="intNodeX1" value="0.8"/&gt;
+	&lt;key name="intNodeY1" value="0.8"/&gt;
+&lt;/Lac_serialization&gt;
+' valueType="unknown"/>
+		<parameter name="lacdataSmartBrightness" value='&lt;Lac_serialization&gt;
+	&lt;key name="lowNodeX" value="0"/&gt;
+	&lt;key name="lowNodeY" value="0"/&gt;
+	&lt;key name="highNodeX" value="1"/&gt;
+	&lt;key name="highNodeY" value="1"/&gt;
+	&lt;key name="gamma" value="0"/&gt;
+	&lt;key name="intNodeCount" value="0"/&gt;
+&lt;/Lac_serialization&gt;
+' valueType="unknown"/>
+		<parameter name="lacdataR" value='&lt;Lac_serialization&gt;
+	&lt;key name="lowNodeX" value="0"/&gt;
+	&lt;key name="lowNodeY" value="0"/&gt;
+	&lt;key name="highNodeX" value="1"/&gt;
+	&lt;key name="highNodeY" value="1"/&gt;
+	&lt;key name="gamma" value="0"/&gt;
+	&lt;key name="intNodeCount" value="0"/&gt;
+&lt;/Lac_serialization&gt;
+' valueType="unknown"/>
+		<parameter name="lacdataG" value='&lt;Lac_serialization&gt;
+	&lt;key name="lowNodeX" value="0"/&gt;
+	&lt;key name="lowNodeY" value="0"/&gt;
+	&lt;key name="highNodeX" value="1"/&gt;
+	&lt;key name="highNodeY" value="1"/&gt;
+	&lt;key name="gamma" value="0"/&gt;
+	&lt;key name="intNodeCount" value="2"/&gt;
+	&lt;key name="intNodeX0" value="0.327778"/&gt;
+	&lt;key name="intNodeY0" value="0.305556"/&gt;
+	&lt;key name="intNodeX1" value="0.783333"/&gt;
+	&lt;key name="intNodeY1" value="0.805556"/&gt;
+&lt;/Lac_serialization&gt;
+' valueType="unknown"/>
+		<parameter name="lacdataB" value='&lt;Lac_serialization&gt;
+	&lt;key name="lowNodeX" value="0"/&gt;
+	&lt;key name="lowNodeY" value="0"/&gt;
+	&lt;key name="highNodeX" value="1"/&gt;
+	&lt;key name="highNodeY" value="1"/&gt;
+	&lt;key name="gamma" value="0"/&gt;
+	&lt;key name="intNodeCount" value="3"/&gt;
+	&lt;key name="intNodeX0" value="0.527778"/&gt;
+	&lt;key name="intNodeY0" value="0.527778"/&gt;
+	&lt;key name="intNodeX1" value="0.15"/&gt;
+	&lt;key name="intNodeY1" value="0.177778"/&gt;
+	&lt;key name="intNodeX2" value="0.727778"/&gt;
+	&lt;key name="intNodeY2" value="0.761111"/&gt;
+&lt;/Lac_serialization&gt;
+' valueType="unknown"/>
+		<parameter name="strength" value="100" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<group name="general">
+		<key name="name" type="string" value="lino"/>
+		<key name="uid" type="string" value="2019-02-08T22:28:48918176504"/>
+		<key name="tags" type="string_array">
+			<string value="Custom"/>
+		</key>
+	</group>
+</AnalogEfexPro2_preset>
+

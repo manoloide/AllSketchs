@@ -1,0 +1,43 @@
+<AnalogEfexPro2_preset>
+	<filter name="TauronGlobalAdjustments">
+		<parameter name="strengthFactor" value="39" valueType="float"/>
+		<parameter name="brightness" value="20" valueType="float"/>
+		<parameter name="contrast" value="16" valueType="float"/>
+		<parameter name="saturation" value="25" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="TauronTextureDirt">
+		<parameter name="TextureType" value="3" valueType="int"/>
+		<parameter name="TextureConvertToWorkingColorSpace" value="1" valueType="int"/>
+		<parameter name="TextureUseThumbnail" value="0" valueType="float"/>
+		<parameter name="strengthScratch" value="-100" valueType="float"/>
+		<parameter name="posXScratch" value="0.5" valueType="float"/>
+		<parameter name="posYScratch" value="0.5" valueType="float"/>
+		<parameter name="ScratchCombo" value="0" valueType="int"/>
+		<parameter name="DisableFilter" value="1" valueType="float"/>
+	</filter>
+	<filter name="TauronLensVignette">
+		<parameter name="vignetteCenterX" value="0.5" valueType="float"/>
+		<parameter name="vignetteCenterY" value="0.5" valueType="float"/>
+		<parameter name="vigStrength" value="-20" valueType="float"/>
+		<parameter name="vigSize" value="30" valueType="float"/>
+		<parameter name="vigShape" value="2" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="NewFilmType">
+		<parameter name="filmTypePresets" value="20" valueType="int"/>
+		<parameter name="strength" value="67" valueType="float"/>
+		<parameter name="fade" value="-52" valueType="float"/>
+		<parameter name="grainSliderStrength" value="430" valueType="float"/>
+		<parameter name="grainSliderSoftness" value="0" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<group name="general">
+		<key name="name" type="string" value="digisand"/>
+		<key name="uid" type="string" value="2018-09-29T04:49:14984138680"/>
+		<key name="tags" type="string_array">
+			<string value="Custom"/>
+		</key>
+	</group>
+</AnalogEfexPro2_preset>
+

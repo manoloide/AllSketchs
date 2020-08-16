@@ -1,0 +1,179 @@
+<AnalogEfexPro2_preset>
+	<filter name="TauronGlobalAdjustments">
+		<parameter name="strengthFactor" value="83" valueType="float"/>
+		<parameter name="brightness" value="-7" valueType="float"/>
+		<parameter name="contrast" value="-13" valueType="float"/>
+		<parameter name="saturation" value="-3.30799" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="TauronBokehEllipse">
+		<parameter name="radius_mode" value="0" valueType="int"/>
+		<parameter name="apertureType" value="0" valueType="int"/>
+		<parameter name="alpha" value="0" valueType="float"/>
+		<parameter name="apertureRotation" value="0" valueType="float"/>
+		<parameter name="radius" value="0.042" valueType="float"/>
+		<parameter name="outerRadiusFactor" value="1.99301" valueType="float"/>
+		<parameter name="apertureParameter" value="0" valueType="float"/>
+		<parameter name="gamma" value="3.5" valueType="float"/>
+		<parameter name="centerX" value="0.5" valueType="float"/>
+		<parameter name="centerY" value="0.5" valueType="float"/>
+		<parameter name="innerRadiusX" value="0.427506" valueType="float"/>
+		<parameter name="innerRadiusY" value="0.420981" valueType="float"/>
+		<parameter name="upperRadiusPositive" value="0.2" valueType="float"/>
+		<parameter name="lowerRadiusPositive" value="0.07" valueType="float"/>
+		<parameter name="upperRadiusNegative" value="0.2" valueType="float"/>
+		<parameter name="lowerRadiusNegative" value="0.07" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="TauronMotionBlurZoomRotate">
+		<parameter name="centerX" value="0.5" valueType="float"/>
+		<parameter name="centerY" value="0.5" valueType="float"/>
+		<parameter name="protectCenter" value="64" valueType="float"/>
+		<parameter name="zoomStrength" value="21.1657" valueType="float"/>
+		<parameter name="rotateStrength" value="0" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="DoubleExposure">
+		<parameter name="TextureFileName" value="" valueType="utf8string"/>
+		<parameter name="TextureType" value="1" valueType="int"/>
+		<parameter name="TextureConvertToWorkingColorSpace" value="1" valueType="int"/>
+		<parameter name="TextureUseThumbnail" value="0" valueType="float"/>
+		<parameter name="centerX" value="0.500165" valueType="float"/>
+		<parameter name="centerY" value="0.500165" valueType="float"/>
+		<parameter name="protectCenter" value="15" valueType="float"/>
+		<parameter name="zoomStrength" value="3" valueType="float"/>
+		<parameter name="rotateStrength" value="0" valueType="float"/>
+		<parameter name="scaleFactor" value="1" valueType="float"/>
+		<parameter name="angle" value="0" valueType="float"/>
+		<parameter name="posX" value="0.5" valueType="float"/>
+		<parameter name="posY" value="0.5" valueType="float"/>
+		<parameter name="exposure" value="125" valueType="float"/>
+		<parameter name="exposure_balance" value="11" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="TauronTextureDirt">
+		<parameter name="TextureType" value="3" valueType="int"/>
+		<parameter name="TextureConvertToWorkingColorSpace" value="1" valueType="int"/>
+		<parameter name="TextureUseThumbnail" value="0" valueType="float"/>
+		<parameter name="strengthScratch" value="-57.3786" valueType="float"/>
+		<parameter name="posXScratch" value="0.443792" valueType="float"/>
+		<parameter name="posYScratch" value="0.409409" valueType="float"/>
+		<parameter name="ScratchCombo" value="28" valueType="int"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="TauronTexturePhotoPlate">
+		<parameter name="TextureType" value="3" valueType="int"/>
+		<parameter name="TextureConvertToWorkingColorSpace" value="1" valueType="int"/>
+		<parameter name="TextureUseThumbnail" value="0" valueType="float"/>
+		<parameter name="strength" value="27" valueType="float"/>
+		<parameter name="BorderTypeCombo" value="10" valueType="int"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="TauronLensVignette">
+		<parameter name="vignetteCenterX" value="0.5" valueType="float"/>
+		<parameter name="vignetteCenterY" value="0.5" valueType="float"/>
+		<parameter name="vigStrength" value="-23" valueType="float"/>
+		<parameter name="vigSize" value="100" valueType="float"/>
+		<parameter name="vigShape" value="3.325" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="NewFilmType">
+		<parameter name="filmTypePresets" value="40" valueType="int"/>
+		<parameter name="strength" value="61.3829" valueType="float"/>
+		<parameter name="fade" value="-35.7231" valueType="float"/>
+		<parameter name="grainSliderStrength" value="478" valueType="float"/>
+		<parameter name="grainSliderSoftness" value="-82" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="TauronTextureFrame">
+		<parameter name="TextureType" value="3" valueType="int"/>
+		<parameter name="TextureConvertToWorkingColorSpace" value="1" valueType="int"/>
+		<parameter name="TextureUseThumbnail" value="0" valueType="float"/>
+		<parameter name="post_scale_factor" value="70.3366" valueType="float"/>
+		<parameter name="FrameCombo" value="13" valueType="int"/>
+		<parameter name="DisableFilter" value="1" valueType="float"/>
+	</filter>
+	<filter name="LevelsAndCurvesFilter">
+		<parameter name="lacdataRGB" value='&lt;Lac_serialization&gt;
+	&lt;key name="lowNodeX" value="0"/&gt;
+	&lt;key name="lowNodeY" value="0"/&gt;
+	&lt;key name="highNodeX" value="1"/&gt;
+	&lt;key name="highNodeY" value="1"/&gt;
+	&lt;key name="gamma" value="0"/&gt;
+	&lt;key name="intNodeCount" value="0"/&gt;
+&lt;/Lac_serialization&gt;
+' valueType="unknown"/>
+		<parameter name="lacdataSmartBrightness" value='&lt;Lac_serialization&gt;
+	&lt;key name="lowNodeX" value="0"/&gt;
+	&lt;key name="lowNodeY" value="0"/&gt;
+	&lt;key name="highNodeX" value="1"/&gt;
+	&lt;key name="highNodeY" value="1"/&gt;
+	&lt;key name="gamma" value="-0.238095"/&gt;
+	&lt;key name="intNodeCount" value="2"/&gt;
+	&lt;key name="intNodeX0" value="0.483333"/&gt;
+	&lt;key name="intNodeY0" value="0.466667"/&gt;
+	&lt;key name="intNodeX1" value="0.638889"/&gt;
+	&lt;key name="intNodeY1" value="0.616667"/&gt;
+&lt;/Lac_serialization&gt;
+' valueType="unknown"/>
+		<parameter name="lacdataR" value='&lt;Lac_serialization&gt;
+	&lt;key name="lowNodeX" value="0"/&gt;
+	&lt;key name="lowNodeY" value="0"/&gt;
+	&lt;key name="highNodeX" value="1"/&gt;
+	&lt;key name="highNodeY" value="1"/&gt;
+	&lt;key name="gamma" value="0.174603"/&gt;
+	&lt;key name="intNodeCount" value="6"/&gt;
+	&lt;key name="intNodeX0" value="0.477778"/&gt;
+	&lt;key name="intNodeY0" value="0.461111"/&gt;
+	&lt;key name="intNodeX1" value="0.687162"/&gt;
+	&lt;key name="intNodeY1" value="0.766667"/&gt;
+	&lt;key name="intNodeX2" value="0.806554"/&gt;
+	&lt;key name="intNodeY2" value="0.827778"/&gt;
+	&lt;key name="intNodeX3" value="0.929222"/&gt;
+	&lt;key name="intNodeY3" value="0.877778"/&gt;
+	&lt;key name="intNodeX4" value="0.335702"/&gt;
+	&lt;key name="intNodeY4" value="0.305556"/&gt;
+	&lt;key name="intNodeX5" value="0.0987279"/&gt;
+	&lt;key name="intNodeY5" value="0.166667"/&gt;
+&lt;/Lac_serialization&gt;
+' valueType="unknown"/>
+		<parameter name="lacdataG" value='&lt;Lac_serialization&gt;
+	&lt;key name="lowNodeX" value="0"/&gt;
+	&lt;key name="lowNodeY" value="0"/&gt;
+	&lt;key name="highNodeX" value="1"/&gt;
+	&lt;key name="highNodeY" value="1"/&gt;
+	&lt;key name="gamma" value="-0.333333"/&gt;
+	&lt;key name="intNodeCount" value="2"/&gt;
+	&lt;key name="intNodeX0" value="0.370916"/&gt;
+	&lt;key name="intNodeY0" value="0.355556"/&gt;
+	&lt;key name="intNodeX1" value="0.604708"/&gt;
+	&lt;key name="intNodeY1" value="0.638889"/&gt;
+&lt;/Lac_serialization&gt;
+' valueType="unknown"/>
+		<parameter name="lacdataB" value='&lt;Lac_serialization&gt;
+	&lt;key name="lowNodeX" value="0"/&gt;
+	&lt;key name="lowNodeY" value="0"/&gt;
+	&lt;key name="highNodeX" value="1"/&gt;
+	&lt;key name="highNodeY" value="1"/&gt;
+	&lt;key name="gamma" value="-0.333333"/&gt;
+	&lt;key name="intNodeCount" value="3"/&gt;
+	&lt;key name="intNodeX0" value="0.494444"/&gt;
+	&lt;key name="intNodeY0" value="0.483333"/&gt;
+	&lt;key name="intNodeX1" value="0.166667"/&gt;
+	&lt;key name="intNodeY1" value="0.316667"/&gt;
+	&lt;key name="intNodeX2" value="0.711111"/&gt;
+	&lt;key name="intNodeY2" value="0.638889"/&gt;
+&lt;/Lac_serialization&gt;
+' valueType="unknown"/>
+		<parameter name="strength" value="100" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<group name="general">
+		<key name="name" type="string" value="NUMBERS"/>
+		<key name="uid" type="string" value="2018-02-15T09:57:12350584973"/>
+		<key name="tags" type="string_array">
+			<string value="Custom"/>
+		</key>
+	</group>
+</AnalogEfexPro2_preset>
+

@@ -1,0 +1,80 @@
+<AnalogEfexPro2_preset>
+	<filter name="TauronGlobalAdjustments">
+		<parameter name="strengthFactor" value="0" valueType="float"/>
+		<parameter name="brightness" value="15" valueType="float"/>
+		<parameter name="contrast" value="20" valueType="float"/>
+		<parameter name="saturation" value="32" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="TauronBokehEllipse">
+		<parameter name="radius_mode" value="0" valueType="int"/>
+		<parameter name="apertureType" value="0" valueType="int"/>
+		<parameter name="alpha" value="0" valueType="float"/>
+		<parameter name="apertureRotation" value="0" valueType="float"/>
+		<parameter name="radius" value="0.02" valueType="float"/>
+		<parameter name="outerRadiusFactor" value="1.99" valueType="float"/>
+		<parameter name="apertureParameter" value="0" valueType="float"/>
+		<parameter name="gamma" value="3.5" valueType="float"/>
+		<parameter name="centerX" value="0.5" valueType="float"/>
+		<parameter name="centerY" value="0.5" valueType="float"/>
+		<parameter name="innerRadiusX" value="0.50278" valueType="float"/>
+		<parameter name="innerRadiusY" value="0.497977" valueType="float"/>
+		<parameter name="upperRadiusPositive" value="0.2" valueType="float"/>
+		<parameter name="lowerRadiusPositive" value="0.07" valueType="float"/>
+		<parameter name="upperRadiusNegative" value="0.2" valueType="float"/>
+		<parameter name="lowerRadiusNegative" value="0.07" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="DoubleExposure">
+		<parameter name="TextureFileName" value="" valueType="utf8string"/>
+		<parameter name="TextureType" value="1" valueType="int"/>
+		<parameter name="TextureConvertToWorkingColorSpace" value="1" valueType="int"/>
+		<parameter name="TextureUseThumbnail" value="0" valueType="float"/>
+		<parameter name="centerX" value="0.500165" valueType="float"/>
+		<parameter name="centerY" value="0.49934" valueType="float"/>
+		<parameter name="protectCenter" value="15" valueType="float"/>
+		<parameter name="zoomStrength" value="2.73076" valueType="float"/>
+		<parameter name="rotateStrength" value="0" valueType="float"/>
+		<parameter name="scaleFactor" value="1" valueType="float"/>
+		<parameter name="angle" value="0" valueType="float"/>
+		<parameter name="posX" value="0.5" valueType="float"/>
+		<parameter name="posY" value="0.5" valueType="float"/>
+		<parameter name="exposure" value="98" valueType="float"/>
+		<parameter name="exposure_balance" value="6" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="TauronTextureDirt">
+		<parameter name="TextureType" value="3" valueType="int"/>
+		<parameter name="TextureConvertToWorkingColorSpace" value="1" valueType="int"/>
+		<parameter name="TextureUseThumbnail" value="0" valueType="float"/>
+		<parameter name="strengthScratch" value="-20" valueType="float"/>
+		<parameter name="posXScratch" value="0.5" valueType="float"/>
+		<parameter name="posYScratch" value="0.5" valueType="float"/>
+		<parameter name="ScratchCombo" value="12" valueType="int"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="TauronLensVignette">
+		<parameter name="vignetteCenterX" value="0.5" valueType="float"/>
+		<parameter name="vignetteCenterY" value="0.5" valueType="float"/>
+		<parameter name="vigStrength" value="-20" valueType="float"/>
+		<parameter name="vigSize" value="100" valueType="float"/>
+		<parameter name="vigShape" value="2" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="NewFilmType">
+		<parameter name="filmTypePresets" value="24" valueType="int"/>
+		<parameter name="strength" value="88" valueType="float"/>
+		<parameter name="fade" value="0" valueType="float"/>
+		<parameter name="grainSliderStrength" value="467" valueType="float"/>
+		<parameter name="grainSliderSoftness" value="35" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<group name="general">
+		<key name="name" type="string" value="mmod"/>
+		<key name="uid" type="string" value="2018-02-24T08:13:4773403128"/>
+		<key name="tags" type="string_array">
+			<string value="Custom"/>
+		</key>
+	</group>
+</AnalogEfexPro2_preset>
+

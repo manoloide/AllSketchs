@@ -1,0 +1,95 @@
+<AnalogEfexPro2_preset>
+	<filter name="TauronGlobalAdjustments">
+		<parameter name="strengthFactor" value="30" valueType="float"/>
+		<parameter name="brightness" value="-8" valueType="float"/>
+		<parameter name="contrast" value="0" valueType="float"/>
+		<parameter name="saturation" value="0" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="TauronLensDistortion">
+		<parameter name="defocus_radius" value="50" valueType="float"/>
+		<parameter name="strength" value="16" valueType="float"/>
+		<parameter name="ChromaStrength" value="0.41" valueType="float"/>
+		<parameter name="ChromaType" value="2" valueType="int"/>
+		<parameter name="DisableFilter" value="1" valueType="float"/>
+	</filter>
+	<filter name="TauronBokehEllipse">
+		<parameter name="radius_mode" value="0" valueType="int"/>
+		<parameter name="apertureType" value="0" valueType="int"/>
+		<parameter name="alpha" value="0" valueType="float"/>
+		<parameter name="apertureRotation" value="0" valueType="float"/>
+		<parameter name="radius" value="0.035" valueType="float"/>
+		<parameter name="outerRadiusFactor" value="2.94677" valueType="float"/>
+		<parameter name="apertureParameter" value="0" valueType="float"/>
+		<parameter name="gamma" value="3.5" valueType="float"/>
+		<parameter name="centerX" value="0.5" valueType="float"/>
+		<parameter name="centerY" value="0.5" valueType="float"/>
+		<parameter name="innerRadiusX" value="0.306156" valueType="float"/>
+		<parameter name="innerRadiusY" value="0.301312" valueType="float"/>
+		<parameter name="upperRadiusPositive" value="0.2" valueType="float"/>
+		<parameter name="lowerRadiusPositive" value="0.07" valueType="float"/>
+		<parameter name="upperRadiusNegative" value="0.2" valueType="float"/>
+		<parameter name="lowerRadiusNegative" value="0.07" valueType="float"/>
+		<parameter name="DisableFilter" value="1" valueType="float"/>
+	</filter>
+	<filter name="DoubleExposure">
+		<parameter name="TextureFileName" value="" valueType="utf8string"/>
+		<parameter name="TextureType" value="1" valueType="int"/>
+		<parameter name="TextureConvertToWorkingColorSpace" value="1" valueType="int"/>
+		<parameter name="TextureUseThumbnail" value="0" valueType="float"/>
+		<parameter name="centerX" value="0.500165" valueType="float"/>
+		<parameter name="centerY" value="0.501815" valueType="float"/>
+		<parameter name="protectCenter" value="0" valueType="float"/>
+		<parameter name="zoomStrength" value="14" valueType="float"/>
+		<parameter name="rotateStrength" value="0" valueType="float"/>
+		<parameter name="scaleFactor" value="1" valueType="float"/>
+		<parameter name="angle" value="0" valueType="float"/>
+		<parameter name="posX" value="0.5" valueType="float"/>
+		<parameter name="posY" value="0.5" valueType="float"/>
+		<parameter name="exposure" value="141.5" valueType="float"/>
+		<parameter name="exposure_balance" value="8" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="TauronTextureDirt">
+		<parameter name="TextureType" value="3" valueType="int"/>
+		<parameter name="TextureConvertToWorkingColorSpace" value="1" valueType="int"/>
+		<parameter name="TextureUseThumbnail" value="0" valueType="float"/>
+		<parameter name="strengthScratch" value="-37" valueType="float"/>
+		<parameter name="posXScratch" value="0.5" valueType="float"/>
+		<parameter name="posYScratch" value="0.5" valueType="float"/>
+		<parameter name="ScratchCombo" value="20" valueType="int"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="TauronTexturePhotoPlate">
+		<parameter name="TextureType" value="3" valueType="int"/>
+		<parameter name="TextureConvertToWorkingColorSpace" value="1" valueType="int"/>
+		<parameter name="TextureUseThumbnail" value="0" valueType="float"/>
+		<parameter name="strength" value="10" valueType="float"/>
+		<parameter name="BorderTypeCombo" value="15" valueType="int"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="TauronLensVignette">
+		<parameter name="vignetteCenterX" value="0.5" valueType="float"/>
+		<parameter name="vignetteCenterY" value="0.5" valueType="float"/>
+		<parameter name="vigStrength" value="-8" valueType="float"/>
+		<parameter name="vigSize" value="100" valueType="float"/>
+		<parameter name="vigShape" value="4.5" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="NewFilmType">
+		<parameter name="filmTypePresets" value="17" valueType="int"/>
+		<parameter name="strength" value="59" valueType="float"/>
+		<parameter name="fade" value="-14" valueType="float"/>
+		<parameter name="grainSliderStrength" value="480" valueType="float"/>
+		<parameter name="grainSliderSoftness" value="0" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<group name="general">
+		<key name="name" type="string" value="mantel"/>
+		<key name="uid" type="string" value="2018-02-16T02:47:44411216884"/>
+		<key name="tags" type="string_array">
+			<string value="Custom"/>
+		</key>
+	</group>
+</AnalogEfexPro2_preset>
+

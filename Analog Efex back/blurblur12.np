@@ -1,0 +1,25 @@
+<AnalogEfexPro2_preset>
+	<filter name="TauronGlobalAdjustments">
+		<parameter name="strengthFactor" value="15" valueType="float"/>
+		<parameter name="brightness" value="4" valueType="float"/>
+		<parameter name="contrast" value="0" valueType="float"/>
+		<parameter name="saturation" value="50" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<filter name="NewFilmType">
+		<parameter name="filmTypePresets" value="29" valueType="int"/>
+		<parameter name="strength" value="100" valueType="float"/>
+		<parameter name="fade" value="-60" valueType="float"/>
+		<parameter name="grainSliderStrength" value="480" valueType="float"/>
+		<parameter name="grainSliderSoftness" value="0" valueType="float"/>
+		<parameter name="DisableFilter" value="0" valueType="float"/>
+	</filter>
+	<group name="general">
+		<key name="name" type="string" value="blurblur12"/>
+		<key name="uid" type="string" value="2019-10-05T22:06:54594942063"/>
+		<key name="tags" type="string_array">
+			<string value="Custom"/>
+		</key>
+	</group>
+</AnalogEfexPro2_preset>
+
